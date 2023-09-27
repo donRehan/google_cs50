@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; 
+	margin: 0; 
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type="text"] {
+	width: 582px;
+	height: 46px;
+	max-width: 100%; 
+	min-width: 200px; 
+}
+
+@media (max-width: 768px) {
+	input[type="text"] {
+		width: 100%; 
+		height: 46px;
+	}
+}
